@@ -1,0 +1,114 @@
+header {
+	width: 1670px;
+	height: 1700px;
+	margin: 0 auto;
+	background: url(fon.jpg) center top no-repeat;
+	background-size: 1700 auto;
+}
+.logo {
+	width:200px;
+	display:inline-block;
+	margin-right: 50%
+}
+
+.logo img {
+	width: 100%
+}
+input{
+	margin-left: -1200px
+}
+button {
+	margin-left:-1200px;
+}
+nav{
+	display: inline-block;
+	vertical-align: top;
+	margin-left: -300px;
+	margin-top: 70px; 
+}
+nav ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+nav li {
+	display:inline-block;
+	margin-right: 20px; 
+}
+nav a {
+	text-decoration:none;
+	font-size: 25px;
+	color:#fff;
+	font-family: "Oswald",sans-serif;
+	display:block;
+	padding:10px 20px;
+	background: rgba(255,255,255,0,5);
+	border-radius:5px;
+	transition: 0,5s
+}	
+nav a hover {
+	transform:rotateX(180deg);
+}
+header form{
+	width: 300px;
+	margin-top:10px;
+	margin-left: 1200px;
+}
+header input{
+	display:block;
+	width: 100%
+	height:40px;
+	margin-bottom: 10px
+}
+header button{
+	width: 200px;
+	height: 40px;
+	background: green;
+	color: #fff;
+	font-family:Arial;
+	border:2px solid #fff;
+}
+.photos {
+	text-align: center;
+}
+.photos a {
+	display:inline-block;
+	margin:20px;
+	width: 100px;
+	height:100px;
+}
+.photos img {
+	width :100%;
+	height :100%;
+}
+.text h1 {
+	width: 1600px;
+	margin:30px auto;
+	text-align: center;
+	font-size: 70px;
+}
+.text p {
+	width: 1600px;
+	margin: 20px;
+	font-size: 18px;
+}
+.owl-carousel {
+	width: 1600px;
+	margin: 50px auto;
+	height: 1000px;
+	overflow: hidden;
+}
+iframe{
+	display:block;
+	margin: 50px auto;
+}
+footer {
+	width: 1600px;
+	height: 100px;
+	background: #000;
+	color:#fff;
+	text-align: center;
+	margin: 30px auto 0;
+	font-size: 40px;
+	line-height: 100px;
+}
